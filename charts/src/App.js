@@ -4,7 +4,7 @@ import Chart from "./components/Chart.jsx";
 function App() {
 	return (
 		<div className="App">
-			<Chart />
+			<Chart displayLegend={false} />
 		</div>
 	);
 }
