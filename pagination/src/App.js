@@ -35,6 +35,7 @@ const App = () => {
   // Change pages
   ///////////////
   const paginate = (pageNumber) => setCurrentPage(pageNumber)
+  
   return (
     <div className='container mt-5'>
       <h1 className='text-primary mb-3'>Pagination</h1>
